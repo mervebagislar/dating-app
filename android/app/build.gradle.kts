@@ -1,3 +1,5 @@
+// android/app/build.gradle.kts (SDK 35 güncellemesi)
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -7,8 +9,8 @@ plugins {
 
 android {
     namespace = "com.mervebagislar.dating_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 35  // ← DÜZELTME: 34'ten 35'e güncelledik
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -20,20 +22,15 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.mervebagislar.dating_app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdk = flutter.minSdkVersion  // Bu genelde 21, değiştirmeyin
+        targetSdk = 34  // Bu 34'te kalabilir, compileSdk'dan farklı
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
         }
     }

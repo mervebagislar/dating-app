@@ -240,7 +240,7 @@ class AppTheme {
       
       // Bottom Navigation Bar Theme
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-        backgroundColor: AppColors.backgroundDark,
+        backgroundColor: Color.from(alpha: 1, red: 0.102, green: 0.125, blue: 0.173),
         selectedItemColor: AppColors.primary,
         unselectedItemColor: AppColors.grey400,
         type: BottomNavigationBarType.fixed,
