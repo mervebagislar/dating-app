@@ -1,4 +1,4 @@
-# Dating App - Flutter Developer Case Study
+# Dating App - Case Study
 
 Bu proje, profesyonel bir Flutter geliştirici case study projesidir. Modern yazılım mimarileri ve best practice'ler kullanılarak geliştirilmiştir.
 
@@ -221,3 +221,4 @@ Bu proje, modern Flutter geliştirme pratiklerini ve profesyonel yazılım mimar
 ---
 
 **Not:** Bu proje eğitim ve portföy amaçlıdır. Production kullanımı için uygun değildir.
+
