@@ -335,7 +335,7 @@ class EnhancedDioClient {
           case 400:
             return ValidationFailure(message: message);
           case 401:
-            return AuthFailure(message: ApiConstants.unauthorizedError);
+            return AuthFailure(message: ApiConstants.unauthorizedError);  
           case 403:
             return AuthFailure(message: 'Erişim reddedildi');
           case 404:

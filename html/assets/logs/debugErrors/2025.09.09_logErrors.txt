@@ -1,0 +1,6 @@
+2025.09.09 13:13:52 => logDebugWrite => INSERT INTO `logs` 
+			(`ID`,`sirketID`,`kullaniciID`,`tarih`,`saat`,`ipAdresi`,`durum`,`seviye`,`mesaj`) 
+			VALUES (NULL,'1','1','2025-09-09','13:13:52','127.0.0.1','alert','tahsilatCesidiDuzenleVeri','kullanıcı tarafından ID'siz Tahsilat Türü düzenleme isteği geldi') sorgusu yapılırken pdo hatası oluştu. SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'siz Tahsilat Türü düzenleme isteği geldi')' at line 3 
+2025.09.09 13:14:35 => logDebugWrite => INSERT INTO `logs` 
+			(`ID`,`sirketID`,`kullaniciID`,`tarih`,`saat`,`ipAdresi`,`durum`,`seviye`,`mesaj`) 
+			VALUES (NULL,'1','1','2025-09-09','13:14:35','127.0.0.1','alert','tahsilatCesidiDuzenleVeri','kullanıcı tarafından ID'siz Tahsilat Türü düzenleme isteği geldi') sorgusu yapılırken pdo hatası oluştu. SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'siz Tahsilat Türü düzenleme isteği geldi')' at line 3 
